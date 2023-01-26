@@ -20,3 +20,8 @@ console.log(new_string);
 // template string
 let aboutme=`my name is ${string1} and age is ${string2}`
 console.log(aboutme);
+// string to number conversion 
+let Anish="22";
+console.log(typeof Anish, Anish);
+Anish =+Anish;
+console.log(typeof Anish, Anish);
